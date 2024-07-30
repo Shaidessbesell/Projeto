@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0;
+    
+    
+    
+}
+
+
+
+.subcontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #d8d7d7;
+    color: #000000;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+
+}
+
+
+.imagem-com-legenda {
+    display: inline-block;
+    margin-right: 100px; 
+   
+    font-size: 16px; 
+    
+  }
+  
+  .imagem-com-legenda img {
+    width: 80px; 
+    height: auto;
+    display: block; 
+  }
+  
+  .imagem-com-legenda p {
+    margin-top: 10px; 
+    font-size: 10px;
+  }
+
+
+ 
+  
+header {
+    background-color: #000000;
+    color: #fff;
+    
+}
+header img {
+    width: 200px; 
+    height: auto; 
+    float: left;
+    margin-top: -210px;
+    border-radius: 40%; border-radius: 40%;
+}
+
+header h1 {
+    text-align: center;
+    text-shadow: 8px 8px 9px rgba(119, 119, 119, 0.5);
+    font-size: 70px;
+    -webkit-text-stroke: 1px rgb(44, 44, 44);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 500px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #b6b6b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #adadad;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 1;
+    text-shadow: 6px 6px 6px rgba(100, 88, 105, 0.5);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.produtos {
+    padding: 100px 0;
+    
+}
+
+.produto {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.produto h3 {
+    margin-top: 10px;
+    
+}
+
+.produto p {
+    color: #666;
+    
+}
+
+.produto .preco {
+    color: #333;
+    font-weight: bold;
+    
+}
+
+.produto button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.produto button:hover {
+    background-color: #555;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
